@@ -1,0 +1,20 @@
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+/* Update body to allow scrolling for multiple cards */
+body {
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+  background-color: #000;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
